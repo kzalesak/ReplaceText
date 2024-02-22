@@ -22,7 +22,7 @@ def apply_replacements():
 def populate_rules():
     # Define the rules based on the dropdown selection
     rules_options = {
-        "ASCII Alternatives": "[č>c][Č>C][š>s][Š>S][ž>z][Ž>Z][ř>r][Ř>R][ť>t][Ť>T][ď>d][Ď>D][ň>n][Ň>N][ů>u][Ú>U][á>a][Á>A][é>e][É>E][í>i][Í>I][ó>o][Ó>O][ú>u][Ú>U][ý>y][Ý>Y][ě>e][Ě>E]",
+        "Czech ASCII Alternatives": "[č>c][Č>C][š>s][Š>S][ž>z][Ž>Z][ř>r][Ř>R][ť>t][Ť>T][ď>d][Ď>D][ň>n][Ň>N][ů>u][Ú>U][á>a][Á>A][é>e][É>E][í>i][Í>I][ó>o][Ó>O][ú>u][Ú>U][ý>y][Ý>Y][ě>e][Ě>E]",
         "Replace with ?": "[č>?][Č>?][š>?][Š>?][ž>?][Ž>?][ř>?][Ř>?][ť>?][Ť>?][ď>?][Ď>?][ň>?][Ň>?][ů>?][Ú>?][á>?][Á>?][é>?][É>?][í>?][Í>?][ó>?][Ó>?][ú>?][Ú>?][ý>?][Ý>?][ě>?][Ě>?]"
     }
     selected_option = rules_var.get()
