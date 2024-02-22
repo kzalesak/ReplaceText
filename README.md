@@ -10,6 +10,9 @@ Alernatively, make it executable on Linux and Mac OS using `chmod +x ReplaceText
 
 ## Usage
 The tool takes an input in the main text field and then applies substitution rules in the following format:
+
 `[C>c][%>@]`
+
 will replace all `C`'s with `c`'s and `%`'s with `@`'s.
+
 Pointy brackets (i.e. `>`) in a rule will likely break the program, do not use them.
