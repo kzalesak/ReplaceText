@@ -3,6 +3,8 @@ A simple GUI tool I use to replace text. Useful for working with broken database
 
 Does one thing and does it reasonably well.
 
+Comes pre-populated with Czech replacement options, edit the source if you wish to add more pre-populated options.
+
 ## Installing
 Simply download the python file and run it using `python ReplaceText.py`.
 
